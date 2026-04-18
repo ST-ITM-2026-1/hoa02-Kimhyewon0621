@@ -628,3 +628,41 @@ input:checked + .slider::before {
     transform: translateX(22px);
     background: #f5e090;
 }
+
+/* Filter Buttons */
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 32px 32px 0;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 6px 20px;
+    border-radius: 999px;
+    border: 1px solid #c8a840;
+    background: transparent;
+    color: #6a5020;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: #c8a840;
+    color: #fdf8ec;
+}
+
+/* Dark theme filter buttons */
+body.dark-theme .filter-btn {
+    border-color: #c8a840;
+    color: #c8a840;
+}
+
+body.dark-theme .filter-btn:hover,
+body.dark-theme .filter-btn.active {
+    background: #c8a840;
+    color: #1a1a2e;
+}
