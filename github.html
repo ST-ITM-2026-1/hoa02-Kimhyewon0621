@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <p class="logo">MyPortfolio</p>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="github.html" class="active">GitHub</a></li>
+            </ul>
+            <div class="theme-switch">
+                <span class="theme-label">☀️</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="theme-label">🌙</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-header">
+            <h1>GitHub</h1>
+        </section>
+
+        <section class="github-profile">
+            <div id="profile-card" class="paper-card profile-card">
+                <p>Loading profile...</p>
+            </div>
+        </section>
+
+        <section class="github-repos">
+            <h2 class="repos-title">★ Public Repositories ★</h2>
+            <div id="repo-list" class="repo-grid">
+                <p>Loading repositories...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kim Hyewon. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
